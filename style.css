@@ -1,0 +1,173 @@
+/* Fixed Navigation Bar */
+.navbar-fixed-top{
+  border-bottom: 2px solid black;
+}
+
+/* Header/Projects Section */
+.header-image {
+  padding-top: 50px;
+  text-align: center;  
+  background: url(https://41.media.tumblr.com/7e480b51d27de23b0c43c2a39c29d15b/tumblr_nwdvj2neqp1t4cb7yo1_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 900px;
+}
+.header-tagline {  
+  margin-top: 5%;
+  background: white;
+  border: 2px solid black; 
+  font-family: Impact, serif;
+}
+.project-img {
+  border: 2px solid black;
+  width: 100%;
+  box-shadow: 3px 0px 3px rgba(0,0,0,.75);
+}
+.project-text {
+  background: white;
+  border: 2px solid black;
+  border-top: none;
+  margin-top: 0;
+  margin-bottom: 5%;
+  font-family: serif;
+  box-shadow: 3px 3px 3px rgba(0,0,0,.75);
+}
+
+/* About me Section */
+.about-me-image {
+  border-top: 3px solid black;
+  background: url(https://40.media.tumblr.com/e833063b5191233f991e857234843f18/tumblr_nwpes3zdQZ1r0mqejo1_1280.jpg) no-repeat center center fixed;
+  background-size: cover;  
+  text-align: center;
+  height: 800px;
+}
+.about-me-tagline {
+  background: lightgrey;
+  text-align: left;
+  padding: 3% 3% 5% 5%;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.25em;
+  margin-top: 10%;  
+  font-size: 2em; 
+  border: 4px solid white;
+  border-radius: 5px;
+}
+.profile-image {
+  margin-top: 15%;  
+}
+
+/* Social Media Section */
+.social-links-image {
+  background: url(https://41.media.tumblr.com/87350d12b4cea77484b04c5872fec9bb/tumblr_nwad9p4oCT1r0siv6o1_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.social-links-tagline {
+  background: white;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 10%;
+  font-family: Impact, serif;  
+}
+.button-containers {
+  margin-left: 3%;
+  margin-top: 2%;
+  font-family: "Times New Roman", times, serif;  
+}
+.button-containers a {
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);  
+}
+
+/* Footer */
+.footer-area {
+  margin: 1.25% auto 1% auto;  
+}
+.footer-area a {
+  color: black;
+}
+/* Modals */
+.project-modal {
+  display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  .project-text{
+    font-size: 20px;
+  }
+  .header-image {
+    height: 600px;
+  }
+  .about-me-image {
+    height: 1000px;
+  }
+  .about-me-tagline {
+    font-size: 28px;    
+  }
+  .button-containers {
+    margin-left: -1.8%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project-text{
+    font-size: 15px;
+  }
+  .header-image {
+    height: 500px;
+  }
+  .about-me-image {
+    height: 1000px;
+  }
+  .about-me-tagline {
+    font-size: 25px;    
+  }
+  .button-containers {
+    margin-left: -2.3%;
+  }
+  .button-containers a {
+    width: 140px;
+    font-size: 1em;        
+  }
+  .social-links-image {
+    height: 200px;
+  }  
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-brand {
+    font-size: 13px;
+  }
+  .project-text{
+    font-size: 7px;
+  }
+  .header-image {
+    height: 300px;
+  }
+  .header-tagline {
+    font-size: 2em;
+  }
+  .about-me-image {
+    height: 750px;
+  }
+  .about-me-tagline {
+    font-size: 15px;    
+  }  
+  .button-containers {
+    margin-left: 20%;
+    width: 10px;
+  }
+  .button-containers a {
+    width: 140px;
+    font-size: 1em;        
+  }
+  .social-links-tagline {
+    font-size: 1.25em;
+  }
+  .social-links-image {
+    height: 325px;
+  }  
+}
